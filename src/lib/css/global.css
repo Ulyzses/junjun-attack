@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Aleo';
+  src: url('/fonts/Aleo-VariableFont_wght.ttf'),
+    url('/fonts/Aleo-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'Gravity Book';
+	src: url("/fonts/Gravity-Book.otf"),
+    url("/fonts/Gravity-BookItalic.otf");
+}
+
+@font-face {
+  font-family: 'Gravity Regular';
+  src: url("/fonts/Gravity-Regular.otf"),
+    url("/fonts/Gravity-Italic.otf");
+}
+
+:root {
+  --CURSOR-green: #10743c;
+  --CURSOR-green-2: #46B549;
+  --CURSOR-black: #161616;
+  --CURSOR-white: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Aleo';
+  font-weight: bold;
+  color: var(--CURSOR-green);
+}
+
+button {
+  font-family: 'Gravity Regular';
+}
+
+p,
+textarea {
+  font-family: 'Gravity Book';
+}
